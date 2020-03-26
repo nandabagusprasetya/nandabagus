@@ -1,7 +1,9 @@
 #bin/bash
+apt install git php -y
+git clone https://github.com/nandabagusprasetya/nandabagus.git
 cat >start-mudakreatif <<EOL
 #bin/bash
-cd mudakreatifv1
+cd userv1
 php -S 0.0.0.0:8080 
 EOL
 ./start-mudakreatif
