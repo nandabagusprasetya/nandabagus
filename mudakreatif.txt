@@ -1,0 +1,13 @@
+#bin/bash
+cat >start-mudakreatif <<EOL
+#bin/bash
+cd mudakreatifv1
+php -S 0.0.0.0:8080 
+EOL
+./start-mudakreatif
+EOL
+cat >.bashrc <<EOL	
+~/start-mudakreatif
+EOL
+chmod +x start-mudakreatif
+./start-mudakreatif
