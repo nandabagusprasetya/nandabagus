@@ -1,6 +1,3 @@
-#bin/bash
-apt install git php -y
-git clone https://github.com/nandabagusprasetya/nandabagus.git
 cat >start-mudakreatif <<EOL
 #bin/bash
 cd userv1
